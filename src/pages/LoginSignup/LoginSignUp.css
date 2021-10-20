@@ -1,0 +1,33 @@
+.form .input {
+    width: 350px;
+}
+
+.form .input::placeholder{
+    color: black;
+}
+.check{
+    cursor: pointer;
+}
+.or {
+    position: relative;
+   
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+.or:before, .or:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 1000%;
+    height: 1px;
+    content: '\a0';
+    background-color: rgb(201, 193, 193);
+}
+.or:before {
+    margin-left: -1000%;
+    text-align: right;
+}
+.other-sign-in-btn{
+    width: 350px;
+}

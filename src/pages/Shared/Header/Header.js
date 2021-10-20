@@ -10,7 +10,7 @@ const Header = ({ children }) => {
         <Navbar className={children} expand="lg">
             <Container>
                 <Navbar.Brand as={NavLink} to="/destinationsHome" className="text-white" ><img height="50px" src={logo} alt="" /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Toggle className="border-0 bg-white bg-opacity-25" aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <div className="input-group w-50 rounded-3 mx-auto">
 
