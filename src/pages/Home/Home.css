@@ -1,0 +1,52 @@
+.destinations{
+    border: 0;
+    background-color: transparent;
+}
+.destinations:focus, .destinations:hover{
+    border: 2px solid goldenrod;
+}
+    
+    
+.destination1{
+    background-image: url("../../images/Image/Rectangle\ 6.png"),linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));;;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    width:160px;
+    border-radius: 20px;
+}
+.destination2{
+    background-image: url("../../images/Image/Sreemongol.png"),linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));;;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    width:160px;
+    border-radius: 20px;
+}
+.destination3{
+    background-image: url("../../images/Image/sundorbon.png"),linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));;;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    width:160px;
+    border-radius: 20px;
+}
+.destination4{
+    background-image: url("../../images/Image/Sajek.png"),linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));;;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    width:160px;
+    border-radius: 20px;
+}
+
+
+

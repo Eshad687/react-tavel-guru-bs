@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "place": "coxs",
+        "name": "COX'S BAZAR",
+        "desc": "Cox's Bazar is a city, fishing port, tourism centre, and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach. It is located 150 km (93 mi) south of the city of Chittagong. Cox's Bazar is also known by the name Panowa, which translates literally as yellow flower. Another old name was Palongkee. It has one of the longest sea beaches in the world.",
+        "img": "https://i.ibb.co/qWZrCys/Rectangle-1.png"
+    },
+    {
+        "id": 2,
+        "place": "sreemangal",
+        "name": "SREEMANGAL",
+        "desc": "It is said the name Sreemangal (or Srimangal) is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor. A copper plate of Raja Marundanath from the 11th century was found in Kalapur. During an excavation at Lamua, an ancient statue of Ananta Narayan was dug out. In 1454, the Nirmai Shiva Bari was built and still stands today. Srimangal thana was established in 1912",
+        "img": "https://i.ibb.co/3dXCkpr/Sreemongol600x400.png"
+    },
+    {
+        "id": 3,
+        "place": "sundarban",
+        "name": "SUNDARBANS",
+        "desc": "Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh's division of Khulna. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is intersected by multiple tidal streams and channels.",
+        "img": "https://i.ibb.co/h2f7YqL/sundorbon600x400.png"
+    },
+    {
+        "id": 4,
+        "place": "sajek",
+        "name": "SAJEK",
+        "desc": "Sajek is a union located in the north of Chittagong Hill Tracts. It's under Baghaichori Upazila in Rangamati hill district, it is situated 67 kilometres (42 mi) north-east from Khagrachhari town and 95 kilometres (59 mi) north from Rangamati city. Sajek has big mountains and hilla as well as a great weather that will make you feel out of this world",
+        "img": "https://i.ibb.co/1drbn5q/Sajek600x400.png"
+    }
+]
