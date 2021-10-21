@@ -1,16 +1,33 @@
 import React, { useState } from 'react';
 import { Button, Container, } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
+import { useLocation, useHistory } from 'react-router';
+import useFirebase from '../../hooks/useFirebase';
 import Header from '../Shared/Header/Header';
 import './LoginSignUp.css'
 
 const LoginSignUp = () => {
     const [isLogin, setIsLogin] = useState(true);
+    const toggleLoginSignUp = () => {
+        setIsLogin(!isLogin);
+    }
+
+    const { loginWithGoogle } = useFirebase()
+    const location = useLocation();
+    const redirect_uri = location.state?.from || '/destinationsHome'
+    const history = useHistory()
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
 
-    const toggleLoginSignUp = () => {
-        setIsLogin(!isLogin);
+
+
+    const handleGoogleLogin = () => {
+        loginWithGoogle()
+            .then((result) => {
+                history.push(redirect_uri);
+            }).catch((error) => {
+
+            });
     }
     return (
         <div>
@@ -80,7 +97,7 @@ const LoginSignUp = () => {
                 </Button>
                 <br />
 
-                <Button className="mt-2 other-sign-in-btn rounded-pill border" variant="white">
+                <Button onClick={handleGoogleLogin} className="mt-2 other-sign-in-btn rounded-pill border" variant="white">
                     <div className="d-flex justify-content-between">
 
 
